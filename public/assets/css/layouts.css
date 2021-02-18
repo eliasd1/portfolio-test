@@ -1,0 +1,224 @@
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+h2.alt {
+    color: #888;
+}
+
+h2.alt strong {
+    color: #666;
+}
+br.clear {
+    clear: both;
+}
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+section, article {
+    margin-bottom: 3em;
+}
+.image {
+    display: inline-block;
+    border: 0;
+}
+.icon {
+    text-decoration: none;
+}
+
+    .icon:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 1.25em;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+.item {
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+.item header {
+    background: #fff;
+    margin: 0;
+    padding: 1em 0 1em 0;
+    font-size: 0.8em;
+}
+.icon > .label {
+    display: none;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+    .container {
+        width: 1200px;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+    .container {
+        width: 960px;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: stretch;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: stretch;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: stretch;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width: 960px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: stretch;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width: 736px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: stretch;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+    body, input, textarea, select {
+        font-size: 17pt;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    body, input, textarea, select {
+        font-size: 16pt;
+    }
+
+    .container {
+        padding: 0 2em 0 2em;
+    }
+    .item {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 960px) {
+
+    /* Basic */
+
+        html, body {
+            overflow-x: hidden;
+        }
+
+        body, input, textarea, select {
+            font-size: 16pt;
+        }
+
+        header br {
+            display: none;
+        }
+
+        .container {
+            padding: 0 2em 0 2em;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+
+}
+@media screen and (max-width: 736px) {
+
+    /* Basic */
+
+        body, input, textarea, select {
+            font-size: 14pt;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            letter-spacing: 0;
+            font-weight: 300;
+        }
+
+        .container {
+            padding: 0 15px 0 15px;
+        }
+}
