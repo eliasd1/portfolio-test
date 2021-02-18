@@ -1723,6 +1723,12 @@ ul.icons {
                 }
 
 }
+#banner{
+    max-height:150px;
+}
+#about .container > ul{
+    list-style: none;
+}
 @media screen and (min-width: 961px) and (max-width: 1620px) {
 
     /* Main */
